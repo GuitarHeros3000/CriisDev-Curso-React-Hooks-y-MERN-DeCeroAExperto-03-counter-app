@@ -1,6 +1,5 @@
-/** @type {import('jest').Config} */
-const config = {
+module.exports = {
+  // TODO: jsdom
   verbose: true,
-};
-
-module.exports = config;
+  setupFiles: ['./jest.setup.js']
+}
