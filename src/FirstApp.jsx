@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-export const FirstApp = ({ 
+export const FirstApp = ({
     // title = 'No hay título.',
-    title, 
+    title,
     subtitle = 'No hay subtítulo.',
     name = 'CriisDev.',
 }) => {
@@ -11,8 +11,10 @@ export const FirstApp = ({
 
     return (
         <>
-            <h1>{title}</h1>
+            <div data-testid="test-title">{title}</div>
             {/* <code>{JSON.stringify(newMessage)}</code> */}
+            <p>{subtitle}</p>
+            <p>{subtitle}</p>
             <p>{subtitle}</p>
             <p>{name}</p>
         </>
