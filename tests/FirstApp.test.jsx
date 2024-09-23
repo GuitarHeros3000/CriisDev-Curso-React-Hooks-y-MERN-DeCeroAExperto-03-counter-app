@@ -30,6 +30,6 @@ describe('Pruebas en <FirstApp />', () => {
                 subtitle={subtitle}
             />
         );
-        expect(getAllByText(subtitle).length).toBe(3);
+        expect(getAllByText(subtitle).length).toBe(2);
     });
 });
